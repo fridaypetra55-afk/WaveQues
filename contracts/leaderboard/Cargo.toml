@@ -1,0 +1,11 @@
+[package]
+name = "wavequest-leaderboard"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "leaderboard"
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = "0.10"

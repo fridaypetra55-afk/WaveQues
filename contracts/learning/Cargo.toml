@@ -1,0 +1,11 @@
+[package]
+name = "wavequest-learning"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "learning"
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = "0.10"
